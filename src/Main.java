@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-       int totalSheets = 480;
-       int ludmilaStudents = 23;
-       int annaStudents = 27;
-       int katiaStudents = 30;
-       int totalStudents =  ludmilaStudents + annaStudents + katiaStudents;
-       System.out.println(totalStudents);
-       int sheetsPerPerson = totalSheets / totalStudents;
-        System.out.println(" На каждого ученика расчитано " + sheetsPerPerson + " листов ");
+        byte doesPerMinute = 16/2;
+        short makesInDay = 1440 * 8;
+        int doesItInThreeDays = 11520 * 3;
+        int doesInMonth = doesItInThreeDays * 30;
+        System.out.println(" За одини сутки машина произвела бутылок " + makesInDay + " штук");
+        System.out.println(" За три дня  машина произвела бутылок " + doesItInThreeDays + " штук ");
+        System.out.println(" За один месяц машина произвела бутылок " + doesInMonth + " штук ");
+
 
 
 
