@@ -1,21 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        byte mouse = 1;
-        System.out.println(" Значение переменной с типом byte  равно " +  mouse );
-        short bull = 2;
-        System.out.println(" Значение переменной с типом bull  равно " + bull );
-        int tiger = 3;
-        System.out.println(" Значение переменной с типом int  равно " + tiger );
-        long rabbit = 4L;
-        System.out.println(" Значение переменной с типом long  равно " + rabbit);
-        float dragonMass = 5.5f;
-        System.out.println(" Значение переменной с типом float  равно " + dragonMass);
-        double snakeMass = 6.6;
-        System.out.println(" Значение переменной с типом double  равно " + snakeMass);
-        char minus = 45;
-        System.out.println(" Значение переменной с типом char  равно " + minus);
-        boolean tigerIsAdult = tiger > 4;
-        System.out.println(" Значение переменной с типом boolean  равно " + tigerIsAdult);
+        int kilo = 1000;
+        int weight = 7;
+        int reduceWeight = kilo + weight;
+        int losingWeight1 = 250;
+        int losingWeight2 = 500;
+        int numberOfDays1 = reduceWeight / losingWeight1;
+        System.out.println( " Если спортсмен будет терять " + losingWeight1 + " ему понадобиться " +
+                numberOfDays1 + " дня "       );
+        int numberOfDays2 = reduceWeight / losingWeight2;
+        System.out.println( " Если спортсмен будет терять " + losingWeight2 + " ему понадобиться " +
+                numberOfDays2 + " дня "       );
 
 
 
