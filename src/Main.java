@@ -1,22 +1,29 @@
 public class Main {
     public static void main(String[] args) {
-        byte mouse = 1;
-        System.out.println(" Значение переменной с типом byte  равно " +  mouse );
-        short bull = 2;
-        System.out.println(" Значение переменной с типом bull  равно " + bull );
-        int tiger = 3;
-        System.out.println(" Значение переменной с типом int  равно " + tiger );
-        long rabbit = 4L;
-        System.out.println(" Значение переменной с типом long  равно " + rabbit);
-        float dragonMass = 5.5f;
-        System.out.println(" Значение переменной с типом float  равно " + dragonMass);
-        double snakeMass = 6.6;
-        System.out.println(" Значение переменной с типом double  равно " + snakeMass);
-        char minus = 45;
-        System.out.println(" Значение переменной с типом char  равно " + minus);
-        boolean tigerIsAdult = tiger > 4;
-        System.out.println(" Значение переменной с типом boolean  равно " + tigerIsAdult);
 
+
+        int banana = 5;
+        int oneBanana = 80;
+        int massOfBananas1 = banana * oneBanana;
+        int milkOne = 100;
+        int milkMilligram2 = 200;
+        int milkMass = 105;
+        int massOfMilk1 = ( milkMilligram2 / milkOne ) * milkMass;
+        int iceCream = 2;
+        int massIceCream1 = 100;
+        int massTwoIceCream1 = iceCream * massIceCream1;
+        int eggs = 4;
+        int massEggs1 = 70;
+        int massOfFourEggs1 = eggs * massEggs1;
+        int massOfAll1 = massOfBananas1 + massOfMilk1 + massTwoIceCream1 + massOfFourEggs1;
+        System.out.println(" Вес спорт-завтрака " + massOfAll1 + " грамм. ");
+        int oneKilo = 1000;
+        double allKilo = massOfAll1 / oneKilo;
+        System.out.println(" Вес спорт-завтрака " + allKilo + " килограмм. ");
+
+
+
+       // В килограммамах
 
 
     }
